@@ -1,9 +1,11 @@
 package org.example.model;
 
+import org.example.tipos.TipoPessoa;
+
 public class Cliente {
     private int codigo;
     private String nome;
-    //  private TipoPessoa tipoPessoa;
+    private TipoPessoa tipoPessoa;
 
     public Cliente() {
     }
@@ -24,13 +26,13 @@ public class Cliente {
         this.nome = nome;
     }
 
-    //   public TipoPessoa getTipoPessoa() {
-    //     return tipoPessoa;
-    //  }
+    public TipoPessoa getTipoPessoa() {
+        return tipoPessoa;
+    }
 
-    // public void setTipoPessoa(TipoPessoa tipoPessoa) {
-    //    this.tipoPessoa = tipoPessoa;
-    // }
+    public void setTipoPessoa(TipoPessoa tipoPessoa) {
+        this.tipoPessoa = tipoPessoa;
+    }
 
 }
 
